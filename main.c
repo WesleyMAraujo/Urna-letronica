@@ -10,17 +10,13 @@ int apurar_votos();
 
 int main()
 {
-
-    setlocale(LC_ALL, "");
-
     // VARIAVEIS
     char senha[10];
     int menu1 = 0, numero_eleitores = 0, votos = 0, representante[5], certo = 0, confirmar = 0, VotoRepresentante = 0, VotoPresidente = 0;
-    int BrancoRepresentante = 0,NuloRepresentante = 0,BrancoPresidente = 0,NuloPresidente = 0;
+    int BrancoRepresentante = 0, NuloRepresentante = 0, BrancoPresidente = 0, NuloPresidente = 0;
     int David = 0, Vinicius = 0, Pollyana = 0, Karla = 0, Dyego = 0, Hadija = 0, Lavinia = 0;
 
-    // INICIO
-    do
+    do // INICIO
     {
         // MENU PRINCIPAL
         printf("E: %d", numero_eleitores);
@@ -306,7 +302,7 @@ int main()
             }
             break;
         case 3:
-        //apurar_votos(David, Vinicius, Pollyana, Karla, Dyego, Hadija, Lavinia);
+            // apurar_votos(David, Vinicius, Pollyana, Karla, Dyego, Hadija, Lavinia);
 
             break;
         case 4:
