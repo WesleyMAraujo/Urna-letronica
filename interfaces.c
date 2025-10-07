@@ -4,6 +4,7 @@
 #include <locale.h>
 #include <string.h>
 
+// a
 void menu_inicial()
 {
     system("clear||cls");
